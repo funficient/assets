@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link href="style.css" rel="stylesheet">
+   
+</head>
+<body>
+
+   <main>
+      <section class="section-contact">
+         <div class="container">
+            <h1>Contact Us</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis soluta esse accusamus perspiciatis minus rerum nulla, blanditiis cupiditate ducimus facere!</p>
+            
+            
+            <form>
+               <div class="form-group">
+
+                  <label for="firstname" class="firstname">Name*</label>
+                     <input 
+                        type="text" 
+                        name="firstname" 
+                        id="firstname" 
+                        required 
+                        class="form-element"
+                        placeholder="Your name"
+                     /> 
+               </div>
+
+               <div class="form-group">   
+                  <label for="lastname" class="lastname">No of persons</label>
+                     <input 
+                     type="text" 
+                     name="lastname" 
+                     id="lastname" 
+                     class="form-element"
+                     placeholder="Your surname"
+                  />
+               </div>
+               
+               <div class="form-group">
+                  <label for="email" class="email">e-mail</label>
+                     <input 
+                     type="email" 
+                     name="email" 
+                     id="email" 
+                     class="form-element"
+                     placeholder="Your e-mail"
+                  />
+               </div>
+
+               <div class="form-group">  
+                  <label for="company" class="email">Date</label>
+                     <input 
+                     type="text" 
+                     name="company" 
+                     id="company" 
+                     class="form-element"
+                     placeholder="Company name"
+                  />
+               </div>
+ 
+               <div class="form-group full">  
+                  <label for="message">Message</label>
+                     <textarea
+                     
+                     name="message" 
+                     id="message" 
+                     class="form-element"
+                     placeholder="Enter your message here.">
+                  </textarea>
+               </div>
+
+               <div class="submit-group">
+                  <input type="submit" class="submit" value="Send Message"/>
+               </div>
+
+            </form>
+         </div>
+      </section>
+   </main>
+
+
+ 
+</body>
+</html>
